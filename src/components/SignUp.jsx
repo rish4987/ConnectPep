@@ -22,7 +22,7 @@ const FormInput = ({ label, type = "text", value, onChange, placeholder, require
   </div>
 );
 
-const Signup = () => {
+const SignUp = () => {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -195,4 +195,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default SignUp;
