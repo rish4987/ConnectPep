@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Body from './components/Body';
 import Login from './components/Login';
 import Profile from './components/Profile';
-import Signup from './components/SignUp'; 
+import SignUp from './components/SignUp'; 
 import Feed from './components/Feed';
 import ReceivedRequests from './components/ReceivedRequests';
 import Connections from './components/Connections';
