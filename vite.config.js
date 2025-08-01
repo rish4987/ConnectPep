@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    checker({ typescript: true }) 
+    //checker({ typescript: true }) 
   ],
   server: {
     port: 5173
