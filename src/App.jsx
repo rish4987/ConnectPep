@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Body from './components/Body';
 import Login from './components/Login';
 import Profile from './components/Profile';
-import SignUp from './components/SignUp'; 
+import Signup from './components/Signup'; 
 import Feed from './components/Feed';
 import ReceivedRequests from './components/ReceivedRequests';
 import Connections from './components/Connections';
@@ -22,7 +22,7 @@ function App() {
             <Route path="profile" element={<Profile />} />
           <Route path="connections" element={<Connections />} />
           <Route path="ReceivedRequests" element={<ReceivedRequests />} />
-                    <Route path="SignUp" element={<SignUp />} />
+                    <Route path="Signup" element={<Signup />} />
 
 
  
