@@ -6,6 +6,7 @@ import { addUser } from "./utils/userSlice";
 import { BASE_URL } from "./utils/constants";
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
+
 const FormInput = ({ label, type = "text", value, onChange, placeholder, required = true, name }) => (
   <div>
     <label className="block text-sm font-medium text-gray-700">{label}</label>
