@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Body from './components/Body';
 import Login from './components/Login';
 import Profile from './components/Profile';
-import SignUp from './components/Signup';
+import SignUp from './components/SignUp';
 import Feed from './components/Feed';
 import ReceivedRequests from './components/ReceivedRequests';
 import Connections from './components/Connections';
@@ -18,9 +18,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Body />}>
             <Route index element={<Feed />} />
-            <Route path="login" element={<Login />} />
-            <Route path="profile" element={<Profile />} />
-          <Route path="connections" element={<Connections />} />
+            <Route path="Login" element={<Login />} />
+            <Route path="Profile" element={<Profile />} />
+          <Route path="Connections" element={<Connections />} />
           <Route path="ReceivedRequests" element={<ReceivedRequests />} />
                     <Route path="SignUp" element={<SignUp />} />
 
